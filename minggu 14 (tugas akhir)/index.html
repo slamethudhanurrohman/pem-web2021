@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>Petshop</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="image/INGONI.png"  width="35" height="35"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop1.html">Pet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop2.html">Pet Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop3.html">Equipment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="log in.html"><ion-icon name="person-circle-outline"></ion-icon></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="keranjang.html"><ion-icon name="cart-outline"></ion-icon></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="container">
+            <div class="box">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-5 col-lg-3">
+                                    <img src="image/kisspng-tabby-cat-dog-puppy-pet-yellow-cat-5aa427920f9448.1732466115207074740638.png" alt="">
+                                </div>
+                                <div class="col-6 ">
+                                    <h1>Online shop for your pets and all their needs.</h1><br>
+                                    <a href="#" class="more more-info">More!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-5 col-lg-3">
+                                    <img src="image/kisspng-tabby-cat-dog-puppy-pet-yellow-cat-5aa427920f9448.1732466115207074740638.png" alt="">
+                                </div>
+                                <div class="col-6 ">
+                                    <h1>Online shop for your pets and all their needs.</h1><br>
+                                    <a href="#" class="more more-info">More!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-5 col-lg-3">
+                                    <img src="image/kisspng-tabby-cat-dog-puppy-pet-yellow-cat-5aa427920f9448.1732466115207074740638.png" alt="">
+                                </div>
+                                <div class="col-6 ">
+                                    <h1>Online shop for your pets and all their needs.</h1><br>
+                                    <a href="#" class="more more-info">More!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br><br><br>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div><br>
+
+            <div class="row">
+                <div class="col-6 col-md-6">
+                    <div class="box2">
+                        <div class="row">
+                            <div class="col-12 col-md-12">
+                                <h1>Flash Sale!</h1>
+                                <div class="col-12 col-m-6">
+                                    <p style="text-align: justify;">description product  .. . . . . .. . . . . . .. . . . .. . . .. . . . .. . . . .. . . . . . . .. .  .. . . .. . . . . . .. . . . . . . . . .. . . . . . . . . . .. . .  . . ..  . .. .. .... ... .. ... .. . . .. .. ..  .... .. . . .. .. . .. ... .... ... .. . . . . .. . . ... . ... ..  . ... . ..  . .. . . ... .. . . . . ... ..  ......... ..... ... .... ... ... .... ..... ... ... ... ..... ...... ...... ....... ...... ...</p>
+                                </div>
+                                <div class="col-12">
+                                    <a href="#" class="more more-info">More!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="box2">
+                        <div class="row">
+                            <div class="col-12 col-md-12">
+                                <h1>Flash Sale!</h1>
+                                <div class="col-12 col-m-6">
+                                    <p style="text-align: justify;">description product  .. . . . . .. . . . . . .. . . . .. . . .. . . . .. . . . .. . . . . . . .. .  .. . . .. . . . . . .. . . . . . . . . .. . . . . . . . . . .. . .  . . ..  . .. .. .... ... .. ... .. . . .. .. ..  .... .. . . .. .. . .. ... .... ... .. . . . . .. . . ... . ... ..  . ... . ..  . .. . . ... .. . . . . ... ..  ......... ..... ... .... ... ... .... ..... ... ... ... ..... ...... ...... ....... ...... ...</p>
+                                </div>
+                                <div class="col-12">
+                                    <a href="#" class="more more-info">More!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+
+        <div class="container">
+            <h2>All Product.</h2>
+            <div class="row g-4 py-4">
+                <div class="carousel" data-flickity='{ "groupCells": true }'>
+                    <div class="carousel-cell">
+                        <div class="row g-4 py-4">
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="carousel-cell">
+                        <div class="row g-4 py-4">
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="carousel-cell">
+                        <div class="row g-4 py-4">
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-sm-4">
+                                <div class="product-item">
+                                    <img class="image-resize image-responsive" src="image/cart.png">
+                                    <div class="product-overlay">
+                                        <div>
+                                            <h3>Produk Name</h3>
+                                            <h6>this is a good product with affordable price.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <h4>Pets are family.</h4>
+        <p>Copyright &copy;INGONI_SlametHudhaNurrohman</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="/js/caraousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+</body>
+
+</html>
